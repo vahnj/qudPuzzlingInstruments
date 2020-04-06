@@ -52,7 +52,7 @@
       Notes="49.23,0.01,0.24;349.23,0.26,0.25;329.63,0.5,0.5;261.63,1,0.5;293.66,1.5,0.5;261.63,2,1;">
       </part>
       <tag Name="musictags" Value="Grenades"/><!-- Lol Grenades -->
-      <tag Name="musiceffect" Value="XRL.World.Effects.acegiak_SongEffectFire"/>
+      <tag Name="musiceffect" Value="XRL.World.Parts.Effects.acegiak_SongEffectFire"/>
       <tag Name="musicthemes" Value="surprise,iginition,explosion,fun"/>
     </object>
 
@@ -66,7 +66,7 @@
         <tag Name="musicnotes"
         Value="440,0.01,0.2;479.996,0.5,0.2;550,1,1;479.996,2,0.2;440,2.2,0.2;479.996,2.4,0.2;440,2.6,0.5"/>
         <tag Name="musictags" Value="Body,Head,Face,Back,Shields,Melee Weapon,Grenades,Arm,Natural Weapon"/><!-- Dragon -->
-        <tag Name="musiceffect" Value="XRL.World.Effects.acegiak_SongEffectAdventure"/> <!--restores thirst -->
+        <tag Name="musiceffect" Value="XRL.World.Parts.Effects.acegiak_SongEffectAdventure"/> <!--restores thirst -->
         <tag Name="musicthemes" Value="adventure,questing"/>
 
     </object>
@@ -75,7 +75,7 @@
         <tag Name="musicnotes"
         Value="440,0.01,0.3;660,0.01,0.3;495,0.4,0.3;742.5,0.4,0.3;693,0.7,0.3;1039.5,0.7,0.3;440,1.1,0.2;660,1.3,0.15;495,1.5,0.2;742.5,1.7,0.15;693,1.9,0.2;693,2.1,0.15;660,2.2,0.15;693,2.3,0.15;495,2.4,0.15;440,2.5,0.3"/>
         <tag Name="musictags" Value="Feet,Foot,Missile Weapon,Projectile,Liquids,Water Container,Ammo,Miscellaneous,Tread,Light Source,Meds,Quest Items,Toughness"/> <!-- Wanderer -->
-        <tag Name="musiceffect" Value="XRL.World.Effects.acegiak_SongEffectThirstLess,XRL.World.Effects.acegiak_SongEffectAdventure"/> <!--restores thirst -->
+        <tag Name="musiceffect" Value="XRL.World.Parts.Effects.acegiak_SongEffectThirstLess,XRL.World.Parts.Effects.acegiak_SongEffectAdventure"/> <!--restores thirst -->
         <tag Name="musicthemes" Value="travel,wander"/>
     </object>
 
@@ -91,7 +91,7 @@
         <tag Name="musicnotes"
         Value="330,0.01,2;359,0.3,0.15;462,0.45,2;528,0.45,2;330,2.45,2;500,2.45,2;220,4.45,1;264,5.45,1;220,6,2"/> 
         <tag Name="musictags" Value="Head,Roots,Books,Meds,Tonics,Applicators,Food,Terrain,Liquids,Creature,Plant,Data Disk,Cybernetic Implants,Wisdom"/><!-- Healer -->
-        <tag Name="musiceffect" Value="XRL.World.Effects.acegiak_SongEffectSleep,acegiak_SongEffectMeditate"/> <!-- puts nearby people to sleep-->
+        <tag Name="musiceffect" Value="XRL.World.Parts.Effects.acegiak_SongEffectSleep,acegiak_SongEffectMeditate"/> <!-- puts nearby people to sleep-->
         <tag Name="musicthemes" Value="sleep,rest,calm,nod"/>
     </object>
 
@@ -100,12 +100,12 @@
       <tag Name="musicnotes"
     Value="330,0.01,1;330,0.5,0.5;330,1,0.5;412.5,1.5,0.5;412.5,2,1;412.5,3,0.5;412.5,3.5,0.5;439.989,4,0.5;439.989,5,0.5;439.989,5.5,0.5;412.5,6,0.5;412.5,6.5,0.5;412.5,7,0.5"/>
       <tag Name="musicthemes" Value="hunting,war,murder"/>
-      <tag Name="musiceffect" Value="XRL.World.Effects.acegiak_SongEffectHunter,XRL.World.Effects.acegiak_SongEffectBeserk"/> <!-- gives heightened hearing-->
+      <tag Name="musiceffect" Value="XRL.World.Parts.Effects.acegiak_SongEffectHunter,XRL.World.Parts.Effects.acegiak_SongEffectBeserk"/> <!-- gives heightened hearing-->
   </object>
 
   <object Name="Phantom" Inherits="Song">
       <tag Name="musictags" Value="Body,Tail,Light Source,Fin,Scrap,Applicators,Tonics,Natural Weapon,Natural Missile Weapon,Wisdom"/><!-- Shadow -->
-      <tag Name="musiceffect" Value="XRL.World.Effects.acegiak_SongEffectFear,XRL.World.Effects.acegiak_SongEffectWhisper"/>
+      <tag Name="musiceffect" Value="XRL.World.Parts.Effects.acegiak_SongEffectFear,XRL.World.Parts.Effects.acegiak_SongEffectWhisper"/>
       <tag Name="musicnotes"
     Value="440,0.01,1;403.326,1,0.1;385,1.25,0.1;366.674,1.5,0.1;392.8,1.75,0.1;330,2,0.1;308,2.25,0.1;294.326,2.5,1;"/>
       <tag Name="musicthemes" Value="shadow,mystery,dark,whispersong"/>
@@ -113,7 +113,7 @@
 
   <object Name="Wake Up In The Morning Feeling Like P.Diddy" Inherits="Song">
       <tag Name="musictags" Value="Clothes,Trade Goods,Energy Cell,Fin,Roots,Tail,Face,Trinket,Quest Items,Artifacts,Armor,Ego"/> <!-- Peacock -->
-      <tag Name="musiceffect" Value="XRL.World.Effects.acegiak_SongEffectDazzling"/>
+      <tag Name="musiceffect" Value="XRL.World.Parts.Effects.acegiak_SongEffectDazzling"/>
       <tag Name="musicnotes"
     Value="275,0.01,0.2;299.9975,0.01,0.2;275,0.5,0.2;299.9975,0.5,0.2;299.9975,1,0.2;412.5,1,0.2;299.9975,1.5,0.2;412.5,1.5,0.2;366.6575,2,0.2;458.3435,2,0.2;366.6575,2.5,0.2;458.3435,2.5,0.2;412.5,3,0.2;504.1575,3.25,0.2;412.5,3.5,0.2;504.1575,4,0.2;"/>
       <tag Name="musicthemes" Value="display,friendship,flirting,fascination,wonder"/>

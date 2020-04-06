@@ -3,7 +3,7 @@ using System.Text;
 using XRL.Rules;
 using XRL.World.Parts;
 
-namespace XRL.World.Effects
+namespace XRL.World.Parts.Effects
 {
 	[Serializable]
 	public class acegiak_SongEffectSpark : acegiak_SongEffect

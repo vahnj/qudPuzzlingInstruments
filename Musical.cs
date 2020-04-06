@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 using XRL.UI;
-using XRL.World.Effects;
+using XRL.World.Parts.Effects;
 using RuntimeAudioClipLoader;
 using System.Collections.Generic;
 using System.IO;
@@ -80,11 +80,6 @@ namespace XRL.World.Parts
 
 				BuildRandom(acegiak_SongBook.FactionTags(this.Faction));
 			}
-		}
-
-		public bool HandleEvent(BeforeRenderEvent E){
-			Make();
-			return true;
 		}
 
 		public override bool FireEvent(Event E)
